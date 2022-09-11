@@ -110,3 +110,6 @@ web_modules/
 
 # mac
 .DS_Store
+
+# built files
+dist/main.js
