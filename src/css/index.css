@@ -1,0 +1,17 @@
+@import "reset.css";
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+}
+
+.app {
+  width: 480px;
+  height: 100%;
+  border: 1px solid red;
+}
