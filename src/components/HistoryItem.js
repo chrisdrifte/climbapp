@@ -8,7 +8,7 @@ export const HistoryItem = ({ id, grade, date }) => {
   historyItem.classList.add("historyItem");
 
   const timeCell = document.createElement("time");
-  timeCell.setAttribute("datetime", parsedDate.toISOString);
+  timeCell.setAttribute("datetime", parsedDate.toISOString());
   timeCell.innerText = parsedDate.toDateString();
   historyItem.append(timeCell);
 
